@@ -1,0 +1,50 @@
+<kbase-plugin key="restlet.ext.shindig" name="Restlet Gadget Dashboard Plugin" pluginsVersion="1" system="true">
+    <plugin-info>
+        <description>Plugin which renders a dashboard of gadgets througth Restlet api</description>
+        <version>${project.version}</version>
+        <vendor name="Pmi" url="http://pmi.com/"/>
+    </plugin-info>
+
+    
+
+
+    <web-resource name="Error Gadget" key="error-gadget">
+        <resource type="download" name="errorGadget.html" location="static/files/errorGadget.html"/>
+    </web-resource>
+
+<!--    <web-resource name="Dashboard Web Resources" key="dashboard">-->
+<!--        <resource type="download" name="css/dashboard.css" location="css/dashboard.css" />-->
+<!---->
+         shared resources 
+<!--        <resource type="download" name="js/json.js" location="js/json.js"/>-->
+<!--        <resource type="download" name="js/lib/ajs.clone.js" location="js/lib/ajs.clone.js"/>-->
+<!--        <resource type="download" name="js/lib/ajs.parseUri.js" location="js/lib/ajs.parseUri.js"/>-->
+<!--        <resource type="download" name="js/lib/zparse.js" location="js/lib/zparse.js"/>-->
+<!---->
+         core 
+<!--        <resource type="download" name="js/AG.DashboardManager.js" location="js/AG.DashboardManager.js"/>-->
+<!--        <resource type="download" name="js/AG.LayoutManager.js" location="js/AG.LayoutManager.js"/>-->
+<!--        <resource type="download" name="js/AG.Gadget.js" location="js/AG.Gadget.js"/>-->
+<!--        <resource type="download" name="js/AG.Render.js" location="js/AG.Render.js"/>-->
+<!---->
+<!--        <resource type="download" name="js/AG.Param.js" location="js/AG.Param.js"/>-->
+<!--        <resource type="download" name="js/AG.Cookie.js" location="js/AG.Cookie.js" />-->
+<!--        <resource type="download" name="js/AG.Sortable.js" location="js/AG.Sortable.js" />-->
+<!---->
+<!--        <resource type="download" name="js/atl-browser.js" location="js/atl-browser.js"/>-->
+<!--        <resource type="download" name="js/jquery.cookie.js" location="js/jquery.cookie.js" />-->
+<!--    </web-resource>-->
+<!--    <web-resource name="Gadget Web Resources for Dashboards" key="gadget-dashboard-resources">-->
+<!--        <resource type="download" name="js/cookies.js" location="js/cookies.js"/>-->
+<!--        <resource type="download" name="js/gadgets-dashboard.js" location="js/gadgets-dashboard.js"/>-->
+<!--        <resource type="download" name="js/cookiebaseduserprefstore.js" location="js/cookiebaseduserprefstore.js"/>-->
+<!--        <resource type="download" name="css/gadgets.css" location="css/gadgets.css"/>-->
+<!--    </web-resource>-->
+<!---->
+<!--    -->
+<!--    <resource type="download" name="js/" location="js/"/>-->
+<!--    <resource type="download" name="css/" location="css/"/>-->
+<!--    <resource type="download" name="css/images/" location="css/images/"/>-->
+<!--    <resource type="download" name="images/" location="images/"/>-->
+<!--    <resource type="download" name="files/" location="files/"/>-->
+</kbase-plugin>

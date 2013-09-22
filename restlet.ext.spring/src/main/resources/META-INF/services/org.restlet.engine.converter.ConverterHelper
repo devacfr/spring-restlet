@@ -1,0 +1,2 @@
+com.pmi.restlet.ext.spring.converter.OxmConverter
+com.pmi.restlet.ext.spring.converter.JsonConverter

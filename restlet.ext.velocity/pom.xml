@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>spring-restlet-parent</artifactId>
+        <groupId>org.cfr.spring-restlet</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>restlet.ext.velocity</artifactId>
+    <name>Restlet Extension - Velocity</name>
+    <description>Integration with Apache Velocity.</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.cfr.spring-restlet</groupId>
+            <artifactId>restlet-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>velocity-tools</groupId>
+            <artifactId>velocity-tools</artifactId>
+            <version>${velocity-tools.version}</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<artifactId>spring-restlet-parent</artifactId>
+		<groupId>org.cfr.spring-restlet</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>restlet.ext.httpclient</artifactId>
+	<name>Restlet Extension - Apache HTTP Client</name>
+	<description>Integration with Apache Commons HTTP Client.</description>
+    <packaging>jar</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>org.cfr.spring-restlet</groupId>
+			<artifactId>restlet-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${org.apache.httpcomponents}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>${org.apache.httpcomponents}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>${org.apache.httpcomponents}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.jcip</groupId>
+			<artifactId>jcip-annotations</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.james</groupId>
+			<artifactId>apache-mime4j</artifactId>
+			<version>0.6</version>
+		</dependency>
+        
+        <!-- Test Dependencies -->        
+		<dependency>
+            <groupId>org.cfr.commons</groupId>
+            <artifactId>commons-testing</artifactId>
+            <scope>test</scope>
+        </dependency>
+	</dependencies>
+</project>

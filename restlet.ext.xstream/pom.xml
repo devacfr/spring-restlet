@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>spring-restlet-parent</artifactId>
+        <groupId>org.cfr.spring-restlet</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>restlet.ext.xstream</artifactId>
+    <name>Restlet Extension - XStream</name>
+    <description>Integration with XStream.</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.cfr.spring-restlet</groupId>
+            <artifactId>restlet-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jettison</groupId>
+            <artifactId>jettison</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml.stream</groupId>
+            <artifactId>stax-api</artifactId>
+            <version>1.0-2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.cfr.commons</groupId>
+            <artifactId>commons-testing</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
